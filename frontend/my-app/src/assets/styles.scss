@@ -1,0 +1,87 @@
+@import "variables";  
+@import "global";    
+@import "components/navbar"; 
+@import "components/login"; 
+
+@import "components/sidebar";
+@import "components/cardGrid";
+@import "components/home";
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+.sidebar-wrapper {
+  width: 120px;
+
+  @media (max-width: 768px) {
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1050;
+    height: 100vh;
+    background-color: #000;
+  }
+}
+
+.card-grid-wrapper {
+  padding: 2%;
+}
+.content-wrapper {
+  min-height: calc(100vh - 80px);
+  background-color: $background-color;
+}
+
+.navbar-title {
+  font-size: 18px;
+}
+
+.navbar-logo {
+  font-size: 22px;
+  margin-bottom: 0;
+}
+
+.icon {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.dark-mode {
+  .navbar {
+    background-color: #000 !important;
+    color: white;
+    border-bottom: 2px solid #333333 !important;
+    .navbar-title,
+    .navbar-logo,
+    .navbar-icons .icon {
+      color: white !important;
+    }
+  }
+  .card-header {
+    background-color: #e2e3e9 !important;
+  }
+  .sidebar {
+    background-color: #000 !important;
+    color: white;
+  }
+
+  .content-wrapper {
+    background-color: #1a1d2a !important;
+    color: white;
+  }
+  .main-content {
+    background-color: #41455c;
+  }
+  .menu-toggle{
+    color: white;
+  }
+}
+

@@ -1,0 +1,15 @@
+.navbar {
+  background-color: #007bff;
+  padding: 10px 20px;
+}
+.navbar .nav-link {
+  color: white;
+}
+.navbar .nav-link:hover {
+  color: #dc3545;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}/*# sourceMappingURL=style.css.map */

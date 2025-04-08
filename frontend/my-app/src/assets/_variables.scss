@@ -1,0 +1,49 @@
+// Colors
+$primary: #007bff;
+$secondary: #6c757d;
+$safe: #28a745;
+$danger: #dc3545;
+$warning: orange;
+$info: #17a2b8;
+$light: #f8f9fa;
+$dark: #343a40;
+$white: #ffffff;
+$black: #000000;
+
+$primary-color: #5a7ffb;
+$secondary-color: #2b2b2b;
+$background-color: #cbd8e7;
+
+// Typography
+$font-primary: 'Arial', sans-serif;
+$font-size-base: 16px;
+$font-weight-bold: 700;
+$font-weight-normal: 400;
+
+// Spacing (Padding & Margin)
+$spacing-sm: 8px;
+$spacing-md: 16px;
+$spacing-lg: 24px;
+$spacing-xl: 32px;
+
+// Border Radius
+$border-radius-sm: 4px;
+$border-radius-md: 8px;
+$border-radius-lg: 12px;
+
+// Box Shadows
+$box-shadow-sm: 0px 2px 4px rgba(0, 0, 0, 0.1);
+$box-shadow-md: 0px 4px 6px rgba(0, 0, 0, 0.15);
+$box-shadow-lg: 0px 6px 12px rgba(0, 0, 0, 0.2);
+
+// Breakpoints (Responsive)
+$breakpoint-xs: 320px;
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+
+// Z-index Levels
+$z-index-dropdown: 1000;
+$z-index-sticky: 1020;
+$z-index-modal: 1050;
